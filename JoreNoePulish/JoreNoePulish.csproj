@@ -2,6 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.4</Version>
+    <Authors>Kybs0</Authors>
+    <UseWpf>True</UseWpf>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RepositoryUrl>https://github.com/JoraNoe/JoreNoePulish.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/JoraNoe/JoreNoePulish</PackageProjectUrl>
+    <PackageIconUrl></PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>测试：Git自动打包，并推到Nuget源。</Description>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
 </Project>
